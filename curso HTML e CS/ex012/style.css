@@ -1,0 +1,27 @@
+@charset "UTF-8";
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+body {
+    background-image:linear-gradient(to left, rgb(112, 0, 139),rgb(75, 30, 112));
+}
+main {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 15px 15px 15px rgba(78, 0, 85, 0.644);
+    width:700px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1{
+    color:rgb(57, 9, 168);
+    text-shadow: 1.5px 1.5px 1px rgb(53, 53, 45);
+}
+h2{
+    color:rgb(57, 6, 138);
+    text-shadow: 1.5px 1.5px 1px rgb(53, 53, 45);
+}
+p{
+    text-align: justify;
+}

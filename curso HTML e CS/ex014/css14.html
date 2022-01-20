@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando um menu/pseudoclasse</title>
+    
+    <style>
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+div {
+            font-size: 30px;
+    background-color: darkcyan;
+    width: 200px;
+}
+div > p {
+    display: none;
+}
+div:hover{
+    background-color: dodgerblue;
+}
+
+div:hover > p{
+display: block;
+color:gainsboro;
+background-color: rgb(26, 9, 102);
+}
+    </style>
+
+</head>
+<body>
+<div >Menu
+    <p>
+        contato<br>
+        comprar <br>
+        vender <br>
+        carrinho <br>
+        pedidos <br>
+        cancelar <br>
+        </p>
+</div>
+
+<div>Configurações
+    <p>
+        Geral <br>
+        áudio <br>
+        imagem <br>
+        armazenagem <br>
+        
+</div>
+
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <style>
+        
+        body{
+            background-color: rgb(121, 121, 173);
+            font:40px 'Teko', sans-serif;
+            
+
+            }
+            div#list{
+                background-color: darkslateblue;
+                text-align: center;
+                height: 60px;
+                font-size: 50px;
+                box-shadow: inset 0 0px 3px 6px rgba(68, 9, 95, 0.164);
+            }
+            div{background-color: rgb(121, 121, 173);}
+            ul{ position: absolute; width: 500px; text-align: justify;}
+            li > ul{display: none;}
+            ul li:hover >ul{display:inline;}
+            ul, li{display: block;}
+            ul li ul{margin-left:30px;}
+            div{display:block;width: 350px;text-align: center;}
+            div.vid{display: none; margin-right:40px; float: right;}
+div.botao{
+    font-size: 25px;
+    text-align: justify;
+}
+            
+    </style>
+    <title>Personagens/Lutas</title>
+</head>
+<body>
+<ul><div id="list">Lista de personagens</div> 
+
+    <li>Hinata Hyuuga
+        <ul>
+            <div class="botao"onclick="gerar(1)">Hinata vs Neji (Naruto clássico)</div>
+            <div class="botao"onclick="gerar(5)">Hinata vs Pain (Naruto Shippuden)</div>
+        </ul>
+    </li>
+    <li>Kakashi Hatake
+        <ul>
+            <div class="botao"onclick="gerar(6)">Equipe Minato vs Minato(Flashback)</div>
+            <div class="botao"onclick="gerar(7)">Kakashi/Obito vs Ninjas da Pedra(Flashback)</div>
+            <div class="botao"onclick="gerar(8)">Kakashi vs time 7(Naruto clássico)</div>
+            <div class="botao"onclick="gerar(9)">Time 7 vs Zabuza(Naruto clássico)</div>
+            <div class="botao"onclick="gerar(10)">Ninjas da folha vs Itachi/Kisame(Naruto clássico)</div>
+            <div class="botao"onclick="gerar(11)">Kakashi vs Time Kakashi(Naruto Shippuden)</div>
+            <div class="botao"onclick="gerar(12)">Kakashi/Naruto vs Deidara(Naruto Shippuden)</div>
+            <div class="botao"onclick="gerar(13)">Ninjas da folha vs Hiddan/Kakuzu(Naruto Shippuden)</div>
+            <div class="botao"onclick="gerar(14)">Kakashi vs Pain(Naruto Shippuden)</div>
+            <div class="botao"onclick="gerar(15)">Ninjas da folha vs Tobi(Naruto Shippuden)</div>
+            <div class="botao"onclick="gerar(16)">Kakashi vs Zabuza(Naruto Shippuden)</div>
+            <div class="botao"onclick="gerar(17)">kakashi/Naurto/Guy vs Obito(Naruto Shippuden)</div>
+            <div class="botao"onclick="gerar(18)">Kakashi vc Obito (Naruto Shippuden)</div>
+            <div class="botao"onclick="gerar(19)">Aliança Shinobi vs Madara/Obito(Naruto Shippuden)</div>
+            <div class="botao"onclick="gerar(20)">Time 7 vs Kaguya(Naruto Shippuden)</div>            
+            </ul>
+    </li>
+    <li>Neji Hyuuga
+        <ul><div class="botao"onclick="gerar(1)">
+            Neji vs Hinata (Naruto clássico)
+            </div>
+            <div class="botao"onclick="gerar(2)">
+                Neji vs Naruto (Naruto clássico)
+                </div>
+            <div class="botao"onclick="gerar(3)">
+                Neji vs Kidomaru (Naruto clássico)
+                </div>
+            <div class="botao"onclick="gerar(4)">
+                Neji vs Neji clone (Naruto Shippuden)
+            </div>
+        </ul>
+    </li>
+    <li>Shino Aburame
+        <ul>
+            <div class="botao"onclick="gerar(21)">Shino vs Zaku(Naruto clássico)</div>
+            <div class="botao"onclick="gerar(22)">Shino vs Kakuro (Naruto clássico)</div>
+            <div class="botao"onclick="gerar(15)">Ninjas da folha vs Tobi(Naruto Shippuden)</div>
+        </ul>
+    </li>
+    <li>Kiba Inuzuka
+        <ul>
+            <div class="botao"onclick="gerar(23)">Kiba vs Naruto(Naruto clássico)</div>
+            <div class="botao"onclick="gerar(24)">Kiba/Kakuro vs Sakon(Naruto clássico)</div>
+            <div class="botao"onclick="gerar(15)">Ninjas da folha vs Tobi(Naruto Shippuden)</div>
+            
+        </ul>
+    </li>
+    <li>Ino Yamanaka
+        <ul>
+            <div class="botao"onclick="gerar(25)">Ino vs Sakura(Naruto clássico)</div>
+            <div class="botao"onclick="gerar(26)">Ninjas da folha vs Hiddan/Kakuzu</div>
+            <div class="botao"onclick="gerar(27)">Ino-shika-cho vs Asuma</div>
+        </ul>
+    </li>
+    <li>
+        Sasuke Uchiha
+        <ul>
+           
+            <!--<div class="botao"onclick="gerar()"></div>-->
+
+
+        </ul>
+    </li>
+</ul>
+<!--<div class="vid" id="1" ><iframe  preload="none" width="800" height="500" src="https://www.youtube.com/embed/xEg25abGVQA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="2" ><iframe  preload="none" width="800" height="500" src="https://www.youtube.com/embed/17U4v2Pm_qM" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="3" ><iframe  preload="none" width="800" height="500" src="https://www.youtube.com/embed/9NDAIzlFPik" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="4" ><iframe  preload="none" width="800" height="500" src="https://www.youtube.com/embed/ps527xf1Mt0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="5" ><iframe  preload="none" width="800" height="500" src="https://www.youtube.com/embed/PmNa8SWGm4A" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="6" ><iframe  preload="none" width="800" height="500" src="https://www.youtube.com/embed/XAYB7Hv2l5Q" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="7" ><iframe  preload="none" width="800" height="500" src="https://www.youtube.com/embed/i3oqEidhR3A" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="8" ><iframe  preload="none" width="800" height="500" src="https://www.youtube.com/embed/jPtUZfu-iCY" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="9" ><iframe  preload="none" width="800" height="500" src="https://www.youtube.com/embed/LFdr_2cdMhY" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="10"><iframe  preload="none" width="800" height="500" src="https://www.youtube.com/embed/iJ8RFoZjZKo" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="12"><iframe  preload="none" width="800" height="500" src="https://www.youtube.com/embed/D5Rf_qFbS2U" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="11"><iframe  preload="none" width="800" height="500" src="https://www.youtube.com/embed/SEp7f4alluY" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="13"><iframe  preload="none" width="800" height="500" src="https://www.youtube.com/embed/44wklVCj05Y" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="14"><iframe  preload="none" width="800" height="500" src="https://www.youtube.com/embed/9xBH6GL0xuE" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="15"><iframe  preload="none" width="800" height="500" src="https://www.youtube.com/embed/TslWDIQzKHU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="16"><iframe  preload="none" width="800" height="500" src="https://www.youtube.com/embed/m-kVSLewdYY" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="17"><iframe  preload="none" width="800" height="500" src="https://www.youtube.com/embed/szwfeS_Emrk" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="18"><iframe  preload="none" width="800" height="500" src="https://www.youtube.com/embed/JKU8zEZyr4w" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="19"><iframe  preload="none" width="800" height="500" src="https://www.youtube.com/embed/PIt74RSqAb0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="20"><iframe  preload="none" width="800" height="500" src="https://www.youtube.com/embed/4vmTggIqsHc" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="21"><iframe  preload="none" width="560" height="315" src="https://www.youtube.com/embed/5D_bWMWXKlw" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="22"><iframe  preload="none" width="560" height="315" src="https://www.youtube.com/embed/9xiwe8jQWTw?start=3" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="23"><iframe  preload="none" width="560" height="315" src="https://www.youtube.com/embed/QNKbOtHcNRE?" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="24"><iframe  preload="none" width="560" height="315" src="https://www.youtube.com/embed/xE46mqmjMYw?start=9" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="25"><iframe  preload="none" width="560" height="315" src="https://www.youtube.com/embed/VPRIUXefOf8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="26"><iframe  preload="none" width="560" height="315" src="https://www.youtube.com/embed/TRF5lcgWC_A" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="27"><iframe width="560" height="315" src="https://www.youtube.com/embed/uWsKs4hibh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="28"><iframe width="560" height="315" src="https://www.youtube.com/embed/X2xla3qKCRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="29"><iframe width="560" height="315" src="https://www.youtube.com/embed/IDoQj7pJrt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="30"><iframe width="560" height="315" src="https://www.youtube.com/embed/lx4tqr2n0v0?start=184" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="31"><iframe width="560" height="315" src="https://www.youtube.com/embed/kY1sBWCY224?start=50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="32"><iframe width="560" height="315" src="https://www.youtube.com/embed/U_aTlVufkpc?start=50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="33"><iframe width="560" height="315" src="https://www.youtube.com/embed/dD_Vw-tOXhs?start=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="34"><iframe width="560" height="315" src="https://www.youtube.com/embed/anBanSiXXgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="35"><iframe width="560" height="315" src="https://www.youtube.com/embed/dhz7Icfob4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="36"><iframe width="560" height="315" src="https://www.youtube.com/embed/WPz4m91IF2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="37"><iframe width="560" height="315" src="https://www.youtube.com/embed/nTz1vxegb6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="38"><iframe width="560" height="315" src="https://www.youtube.com/embed/DmXU8OiQVHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="39"><iframe width="560" height="315" src="https://www.youtube.com/embed/fW3wMEWCfpI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="40"><iframe width="560" height="315" src="https://www.youtube.com/embed/bfN-CkuSwA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="41"><iframe width="560" height="315" src="https://www.youtube.com/embed/c2_pSmWoe6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="42"><iframe width="560" height="315" src="https://www.youtube.com/embed/o_OFy7-CKn4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="43"><iframe width="560" height="315" src="https://www.youtube.com/embed/DxgZjWwdkqE?start=689" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="44"><iframe width="560" height="315" src="https://www.youtube.com/embed/wYaq-Qp4q8M?start=38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid" id="45"></div>
+-->
+</body>
+</html>

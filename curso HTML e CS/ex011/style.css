@@ -1,0 +1,11 @@
+@charset "UTF-8";
+*{
+    height: 30%;
+}
+h1{
+    color: orangered;
+}
+body{
+    background-image: linear-gradient(to top, red 5%, brown 30%,black );
+}
+

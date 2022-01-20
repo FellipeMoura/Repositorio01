@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sasuke Uchiha</title>
+    <script defer src="script.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+body{
+    margin: 0;
+    font: 30px 'Teko';
+    background-color: rgb(114, 94, 121);
+}
+a{
+    text-align: left;
+    text-decoration: none;
+    margin-left: 30px;
+    color: #ffff;
+    text-shadow: 1px 1px 1px black;
+
+
+}
+h1{
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+header{
+    margin: 0;
+    color: #ffff;
+    text-shadow: 2px 2px 2px black;
+    background-image:linear-gradient( rgb(49, 36, 49), rgb(85, 51, 85), rgb(49, 36, 49) );
+    height: 150px;
+}
+div#list{
+    background-color: #ffff;
+    padding: 15px;
+    margin: 30px;
+}
+div#vid{display: none;}
+div.vid{
+    display: none; 
+    margin: 30px auto auto auto; 
+    width: 99%;
+    height: 99%; 
+    background-color: rgba(0, 0, 0, 0.37);
+}
+div.botao{
+    padding: 0;
+    margin-right: 0; 
+    width: 400px;
+    height: 15px;
+    display: inline-block;}
+    button.vid{
+        
+        display: block;
+        position: absolute;
+        right: 0;
+        color: #fff;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Sasuke Uchiha</h1>
+    <nav>
+       <a href="sasukec.html">Combates</a>
+       <a href="sasukes.html">Sobre</a>
+       <a href="page2.1.html">Personagens</a>
+    </nav>
+</header>
+<main>
+
+<!--<div class="vid"  id="8" ><button class="vid" onclick="fechar()">X</button><iframe  preload="none" width="873" height="473" src="https://www.youtube.com/embed/jPtUZfu-iCY" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid"  id="9" ><button class="vid" onclick="fechar()">X</button><iframe  preload="none" width="873" height="473" src="https://www.youtube.com/embed/LFdr_2cdMhY" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid"  id="27"><button class="vid" onclick="fechar()">X</button><iframe width="873" height="473" src="https://www.youtube.com/embed/uWsKs4hibh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid"  id="28"><button class="vid" onclick="fechar()">X</button><iframe width="873" height="473" src="https://www.youtube.com/embed/X2xla3qKCRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid"  id="29"><button class="vid" onclick="fechar()">X</button><iframe width="873" height="473" src="https://www.youtube.com/embed/IDoQj7pJrt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid"  id="30"><button class="vid" onclick="fechar()">X</button><iframe width="873" height="473" src="https://www.youtube.com/embed/lx4tqr2n0v0?start=184" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid"  id="31"><button class="vid" onclick="fechar()">X</button><iframe width="873" height="473" src="https://www.youtube.com/embed/kY1sBWCY224?start=50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid"  id="32"><button class="vid" onclick="fechar()">X</button><iframe width="873" height="473" src="https://www.youtube.com/embed/U_aTlVufkpc?start=50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid"  id="33"><button class="vid" onclick="fechar()">X</button><iframe width="873" height="473" src="https://www.youtube.com/embed/dD_Vw-tOXhs?start=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid"  id="34"><button class="vid" onclick="fechar()">X</button><iframe width="873" height="473" src="https://www.youtube.com/embed/anBanSiXXgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid"  id="35"><button class="vid" onclick="fechar()">X</button><iframe width="873" height="473" src="https://www.youtube.com/embed/dhz7Icfob4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid"  id="36"><button class="vid" onclick="fechar()">X</button><iframe width="873" height="473" src="https://www.youtube.com/embed/WPz4m91IF2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid"  id="37"><button class="vid" onclick="fechar()">X</button><iframe width="873" height="473" src="https://www.youtube.com/embed/nTz1vxegb6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid"  id="38"><button class="vid" onclick="fechar()">X</button><iframe width="873" height="473" src="https://www.youtube.com/embed/DmXU8OiQVHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid"  id="39"><button class="vid" onclick="fechar()">X</button><iframe width="873" height="473" src="https://www.youtube.com/embed/fW3wMEWCfpI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid"  id="40"><button class="vid" onclick="fechar()">X</button><iframe width="873" height="473" src="https://www.youtube.com/embed/bfN-CkuSwA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid"  id="41"><button class="vid" onclick="fechar()">X</button><iframe width="873" height="473" src="https://www.youtube.com/embed/c2_pSmWoe6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid"  id="42"><button class="vid" onclick="fechar()">X</button><iframe width="873" height="473" src="https://www.youtube.com/embed/o_OFy7-CKn4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid"  id="43"><button class="vid" onclick="fechar()">X</button><iframe width="873" height="473" src="https://www.youtube.com/embed/DxgZjWwdkqE?start=689" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid"  id="44"><button class="vid" onclick="fechar()">X</button><iframe width="873" height="473" src="https://www.youtube.com/embed/wYaq-Qp4q8M?start=38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="vid"  id="20"><button class="vid" onclick="fechar()">X</button><iframe  preload="none" width="873" height="473" src="https://www.youtube.com/embed/4vmTggIqsHc" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+-->
+    
+    <div id="list">
+    <div class="botao"onclick="gerar(8)">Kakashi vs time 7(Naruto clássico)</div>
+    <div class="botao"onclick="gerar(9)">Time 7 vs Zabuza(Naruto clássico)</div>
+    <div class="botao"onclick="gerar(27)">Sasuke/Naruto vs Orochimaru(N clássico)</div>
+    <div class="botao"onclick="gerar(28)">Time 7 vs Ninjas da chuva(Naruto clássico)</div>
+    <div class="botao"onclick="gerar(29)">Sasuke vs Yoroi(Naruto clássico)</div>
+    <div class="botao"onclick="gerar(30)">Sasuke vs Gaara(Naruto clássico)</div>
+    <div class="botao"onclick="gerar(31)">Sasuke vs Gaara/Shukaku (Naruto clássico)</div>
+    <div class="botao"onclick="gerar(32)">Sasuke vs Itachi(Naruto clássico)</div>
+    <div class="botao"onclick="gerar(33)">Sasuke vs Naruto(Naruto clássico)</div>
+    <div class="botao"onclick="gerar(34)">Sasuke vs Naruto(Naruto clássico)</div>
+    <div class="botao"onclick="gerar(35)">Sasuke vs Orochimaru(Shippuden)</div>
+    <div class="botao"onclick="gerar(36)">Sasuke vs Deidara(Shippuden)</div>
+    <div class="botao"onclick="gerar(37)">Sasuke vs Itachi(Naruto Shippuden)</div>
+    <div class="botao"onclick="gerar(38)">Sasuke vs Killer bee</div>
+    <div class="botao"onclick="gerar(39)">Sasuke vs 5 Kages</div>
+    <div class="botao"onclick="gerar(40)">Sasuke vs Danzou</div>
+    <div class="botao"onclick="gerar(41)">Sasuke vs Kakashi</div>
+    <div class="botao"onclick="gerar(42)">Sasuke/Itachi vs Kabuto</div>
+    <div class="botao"onclick="gerar(43)">Sasuke/Tobirama vs Madara</div>
+    <div class="botao"onclick="gerar(44)">Sasuke/Naruto vs Madara</div>
+    <div class="botao"onclick="gerar(20)">Time 7 vs Kaguya(Naruto Shippuden)</div>
+</div>
+
+</main>
+    
+</body>
+</html>

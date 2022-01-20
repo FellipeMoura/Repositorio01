@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Twinkle+Star&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+body{
+    font-family: 'Teko';
+
+}
+/*font-family: 'Finger Paint', cursive;
+font-family: 'Twinkle Star', cursive;
+*/
+
+img{
+    width: 300px;
+    margin-top: 30px;
+}
+div:hover > p.sub{
+display: inline;
+}
+a{
+    text-decoration: none;
+    height: auto;
+    width: auto;
+    text-align: center;
+    
+    
+}
+div.b0{ 
+
+  margin: 30px;
+  border-radius: 10px;
+    float:left;
+    width: 300px;
+    height: 520px;
+    color: rgb(2, 2, 2);
+   text-shadow: 4px 4px 5px rgba(1, 7, 0, 0.336);
+    font: 60px 'Teko', sans-serif; 
+    text-align: center;
+    
+   
+    
+}
+footer#pb{
+    color: rgba(255, 255, 255, 0.897);
+    font: 40px 'Teko';
+    text-align: center;
+    background-color: rgba(105, 105, 105, 0.274);
+}
+                

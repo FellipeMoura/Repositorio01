@@ -1,0 +1,7 @@
+@font-face{
+    font-family: 'hand';
+    src: url('TwinkleStar-Regular.ttf');
+}
+body { font-family: 'hand', Arial;
+
+}
