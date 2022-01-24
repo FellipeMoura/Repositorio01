@@ -2,19 +2,24 @@
 
         body{
             margin: 0;
-            font-family:cursive;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
             background-image: url(imagens/art08.jpg);
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
             background-attachment: fixed;
             color: blanchedalmond;
-            text-shadow:2px 2px 2px black;
             
         }
         header{
             height: 115px;
             text-align: center;
+        }
+        a{
+            text-decoration: none;
+            color: darkgray;
+            font-size: 3vh;
         }
         main{
             font-size: 3vh;
@@ -22,7 +27,7 @@
             
 
         }
-        article{
+        section{
             padding: 10px;
             background-repeat: no-repeat;
             background-position: center center;
@@ -32,23 +37,24 @@
         
         }
         .claro{
-            color:darkcyan;
+            color:black;
             font-weight: bold;
         }
-        #art02{
-            background-image: url(imagens/art02.jpg);
+
+        section.claro > p {
             
+            width: 400px;
+            background-color: rgba(245, 245, 220, 0.562);
         }
+        
         #art04{
-            background-image: url(imagens/art04.jpg);
+            background-image: url(imagens/fundo.jpg);
             
         }
         #art06{
             background-image: url(imagens/art06.jpg);
         }
-        #art08{
-            background-image: url(imagens/fundo.jpg);
-        }
+        
         footer{
             background-color: royalblue;
             height: 25px;
