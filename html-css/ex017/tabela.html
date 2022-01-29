@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira tabela</title>
+    <style>
+        caption{
+            font-size: 15px;
+            font-weight: bold;
+            padding: 8px;
+        }
+        table{
+            border-collapse: collapse;
+            border: 3px inset black;
+            position: relative;
+        }
+        th,td{
+            text-align: right;
+            padding: 5px;
+            border: 1px solid black;
+        }
+        thead{
+            background-color: mediumpurple;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: mediumpurple;
+            border: 1px solid black;
+
+        }
+        tbody > tr:nth-child(2n){
+            background-color: darkseagreen;
+        }
+    </style>
+</head>
+<body>
+       <table>
+        <caption>Ranking de Títulos da Uefa Champions League por países</caption>
+        <thead>
+            <tr>
+                <th scope="col">País</th>
+                <th scope="col">Títulos</th>
+                <th scope="col">Vices</th>
+                <th scope="col">Campeões</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Espanha</td>
+                <td>18</td>
+                <td>11</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Inglaterra</td>
+                <td>14</td>
+                <td>10</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Itália</td>
+                <td>12</td>
+                <td>16</td>
+                <td rowspan="3">3</td>
+            </tr>
+            <tr>
+                <td>Alemanha</td>
+                <td>8</td>
+                <td>10</td>
+                
+            </tr>
+            <tr>
+                <td>Países Baixos</td>
+                <td>6</td>
+                <td>2</td>
+                
+            </tr>
+            <tr>
+                <td>Portugal</td>
+                <td>4</td>
+                <td>5</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>França</td>
+                <td>1</td>
+                <td>6</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Outros</td>
+                <td>3</td>
+                <td>6</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Espanha</td>
+                <td>18</td>
+                <td>11</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Inglaterra</td>
+                <td>14</td>
+                <td>10</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Itália</td>
+                <td>12</td>
+                <td>16</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Alemanha</td>
+                <td>8</td>
+                <td>10</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Países Baixos</td>
+                <td>6</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Portugal</td>
+                <td>4</td>
+                <td>5</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>França</td>
+                <td>1</td>
+                <td>6</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Outros</td>
+                <td>3</td>
+                <td>6</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Espanha</td>
+                <td>18</td>
+                <td>11</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Inglaterra</td>
+                <td>14</td>
+                <td>10</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Itália</td>
+                <td>12</td>
+                <td>16</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Alemanha</td>
+                <td>8</td>
+                <td>10</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Países Baixos</td>
+                <td>6</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Portugal</td>
+                <td>4</td>
+                <td>5</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>França</td>
+                <td>1</td>
+                <td>6</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Outros</td>
+                <td>3</td>
+                <td>6</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row">Total:</th>
+            <td><strong>66</strong></td>
+            <td><strong>66</strong></td>
+            <td><strong>22</strong></td>
+        </tfoot>
+    </table>
+</body>
+</html>
