@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rascunho</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scripts.js">
+</head>
+<body>
+<header>
+    <div>
+        <h1>Fev/2022</h1>
+    </div>
+</header>
+<div>
+    <div id="anterior" onclick="anterior()"><p>^</p></div>
+    <div id="proximo" onclick="proximo()"><p>v</p></div>
+    <div id="mostrar" onclick="mostrar()"><p id="todos">Todos</p><p id="semana">Semana</p></div>
+</div>
+
+
+
+<main>
+    <table>
+            <tr  id="feira">
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+                <th>Sexta</th>
+                <th>Sábado/Domigo</th>
+            </tr>
+                <tr class="datas">
+                    <td>31/Jan</td>
+                    <td>01</td>
+                    <td>02</td>
+                    <td>03</td>
+                    <td>04</td>
+                    <td>05 e 06</td>
+                </tr>
+                <tr class="listas">
+                   <td id="lista1"></td>
+                   <td id="lista2"></td>
+                   <td id="lista3"></td>
+                   <td id="lista4"></td>
+                   <td id="lista5"></td>
+                   <td id="lista6"></td>
+                </tr>
+                <tr class="botoes">
+                    <td><input type="submit" value="Incluir"onclick="incluir(1)"><input type="reset" value="Limpar" onclick="limpar(1)"></td>
+                    <td><input type="submit" value="Incluir"onclick="incluir(2)"><input type="reset" value="Limpar" onclick="limpar(2)"></td>
+                    <td><input type="submit" value="Incluir"onclick="incluir(3)"><input type="reset" value="Limpar" onclick="limpar(3)"></td>
+                    <td><input type="submit" value="Incluir"onclick="incluir(4)"><input type="reset" value="Limpar" onclick="limpar(4)"></td>
+                    <td><input type="submit" value="Incluir"onclick="incluir(5)"><input type="reset" value="Limpar" onclick="limpar(5)"></td>
+                    <td><input type="submit" value="Incluir"onclick="incluir(6)"><input type="reset" value="Limpar" onclick="limpar(6)"></td>
+                </tr>
+                <tr class=datas>
+                    <td>07</td>
+                    <td>08</td>
+                    <td>09</td>
+                    <td>10</td> 
+                    <td>11</td>
+                    <td>12 e 13</td>
+                </tr>
+                <tr class="listas">
+                   <td id="lista7"></td>
+                   <td id="lista8"></td>
+                   <td id="lista9"></td>
+                   <td id="lista10"></td>
+                   <td id="lista11"></td>
+                   <td id="lista12"></td>
+                </tr>
+                <tr class="botoes">
+                    <td><input type="submit" value="Incluir"onclick="incluir(7)"><input type="reset" value="Limpar" onclick="limpar(7)"></td>
+                    <td><input type="submit" value="Incluir"onclick="incluir(8)"><input type="reset" value="Limpar" onclick="limpar(8)"></td>
+                    <td><input type="submit" value="Incluir"onclick="incluir(9)"><input type="reset" value="Limpar" onclick="limpar(9)"></td>
+                    <td><input type="submit" value="Incluir"onclick="incluir(10)"><input type="reset" value="Limpar" onclick="limpar(10)"></td>
+                    <td><input type="submit" value="Incluir"onclick="incluir(11)"><input type="reset" value="Limpar" onclick="limpar(11)"></td>
+                    <td><input type="submit" value="Incluir"onclick="incluir(12)"><input type="reset" value="Limpar" onclick="limpar(12)"></td>
+            
+            </tr>
+                <tr class="datas">
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19 e 20</td>
+                </tr>
+                <tr class="listas">
+                   <td id="lista13"></td>
+                   <td id="lista14"></td>
+                   <td id="lista15"></td>
+                   <td id="lista16"></td>
+                   <td id="lista17"></td>
+                   <td id="lista18"></td>
+                </tr>
+                    <tr class="botoes">
+                        <td><input type="submit" value="Incluir"onclick="incluir(13)"><input type="reset" value="Limpar" onclick="limpar(13)"></td>
+                        <td><input type="submit" value="Incluir"onclick="incluir(14)"><input type="reset" value="Limpar" onclick="limpar(14)"></td>
+                        <td><input type="submit" value="Incluir"onclick="incluir(15)"><input type="reset" value="Limpar" onclick="limpar(15)"></td>
+                        <td><input type="submit" value="Incluir"onclick="incluir(16)"><input type="reset" value="Limpar" onclick="limpar(16)"></td>
+                        <td><input type="submit" value="Incluir"onclick="incluir(17)"><input type="reset" value="Limpar" onclick="limpar(17)"></td>
+                        <td><input type="submit" value="Incluir"onclick="incluir(18)"><input type="reset" value="Limpar" onclick="limpar(18)"></td>
+                    </tr>
+                <tr class="datas">
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26 e 27</td>
+                </tr>
+                <tr class="listas">
+                   <td id="lista19"></td>
+                   <td id="lista20"></td>
+                   <td id="lista21"></td>
+                   <td id="lista22"></td>
+                   <td id="lista23"></td>
+                   <td id="lista24"></td>
+                </tr>
+                <tr class="botoes">
+                    <td><input type="submit" value="Incluir"onclick="incluir(19)"><input type="reset" value="Limpar" onclick="limpar(19)"></td>
+                    <td><input type="submit" value="Incluir"onclick="incluir(20)"><input type="reset" value="Limpar" onclick="limpar(20)"></td>
+                    <td><input type="submit" value="Incluir"onclick="incluir(21)"><input type="reset" value="Limpar" onclick="limpar(21)"></td>
+                    <td><input type="submit" value="Incluir"onclick="incluir(22)"><input type="reset" value="Limpar" onclick="limpar(22)"></td>
+                    <td><input type="submit" value="Incluir"onclick="incluir(23)"><input type="reset" value="Limpar" onclick="limpar(23)"></td>
+                    <td><input type="submit" value="Incluir"onclick="incluir(24)"><input type="reset" value="Limpar" onclick="limpar(24)"></td>
+                </tr>
+                <tr class="datas">
+                    <td>28</td>
+                    <td>01/MAR</td>
+                    <td>02/MAR</td>
+                    <td>03/MAR</td>
+                    <td>04/MAR</td>
+                    <td>05/MAR</td>
+                </tr>
+                <tr class="listas">
+                   <td id="lista25"></td>
+                   <td id="lista26"></td>
+                   <td id="lista27"></td>
+                   <td id="lista28"></td>
+                   <td id="lista29"></td>
+                   <td id="lista30"></td>
+                </tr>
+                <tr class="botoes">
+                    <td><div class="linha5"><input type="submit" value="Incluir"onclick="incluir(25)"><input type="reset" value="Limpar" onclick="limpar(25)"></td></div>
+                    <td><input type="submit" value="Incluir"onclick="incluir(26)"><input type="reset" value="Limpar" onclick="limpar(26)"></td>
+                    <td><input type="submit" value="Incluir"onclick="incluir(27)"><input type="reset" value="Limpar" onclick="limpar(27)"></td>
+                    <td><input type="submit" value="Incluir"onclick="incluir(28)"><input type="reset" value="Limpar" onclick="limpar(28)"></td>
+                    <td><input type="submit" value="Incluir"onclick="incluir(29)"><input type="reset" value="Limpar" onclick="limpar(29)"></td>
+                    <td><input type="submit" value="Incluir"onclick="incluir(30)"><input type="reset" value="Limpar" onclick="limpar(30)"></td>
+                </tr>
+            </table>
+        </tbody>
+        <tfoot>
+            <tr >
+                <td ><div id="divscan"><input type="text" name="scan" id="scan"></div></td>
+            </tr>   
+        </tfoot>
+    </table>
+    <div> </div>
+</main>
+<script src="scripts.js"></script>
+</body>
+</html>
